@@ -1,0 +1,40 @@
+body {
+    background-color:rgba(240, 128, 128, 0.507);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar-list {
+    float: left;
+  }
+  
+  .navbar-list .navbar-list-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  
+  .navbar-list  .navbar-list-link:hover:not(.active) {
+    background-color: #111;
+  }
+   
+  
+  .nav-bild {
+    width: 10%;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
