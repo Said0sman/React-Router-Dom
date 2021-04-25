@@ -1,7 +1,10 @@
+import Title from '../components/Title';
+
+
 export default function About(){
     return (
         <>
-          <h2>About</h2>
+          <Title name="About" />
         </>
       )
 };

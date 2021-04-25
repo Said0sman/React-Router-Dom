@@ -1,7 +1,10 @@
+import Title from '../components/Title';
+
+
 export default function Project(){
     return (
         <>
-          <h2>Project</h2>
+          <Title name="Project" />
         </>
       )
 };
